@@ -1,0 +1,33 @@
+* {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('https://images.theconversation.com/files/393213/original/file-20210401-13-1w9xb24.jpg?ixlib=rb-1.1.0&q=30&auto=format&w=600&h=400&fit=crop&dpr=2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+#personal_Info img{
+    border-radius: 50%;
+}
+
+#ContactMe > h3:hover {
+    color: white;
+}
+
+.margin-v {
+    margin: 30px 0;
+}
+
+.margin-v2 {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+}

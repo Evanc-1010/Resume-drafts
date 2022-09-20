@@ -5,68 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <!--fonts below:-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Resume</h1>
-    <img src="./images/Ev_Williams.jpg" alt="profile_pic">
-    <p>Hello! My Name is Evan, and i am a <strong>junior</strong> front-end web developer.</p>
+    <div id="personal_Info">
+        <h1 class="margin-v">Resume</h1>
+        <img src="./images/Ev_Williams_regt.jpg" alt="profile_pic">
+        <h3>Evan Cheung</h3>
+        <p>Hello! My Name is Evan, and i am a <strong>junior</strong> front-end web developer.</p>
+    </div>
 
-    
-    <table style="border: 1px solid black;">
-        <thead>
-        <tr>
-            <th>Evan Cheung</th>
-        </tr>
-        </thead>
+    <div id="personal_Details" class="margin-v2">
+        <div id="academic_Result">
+            <p><strong>Academic Result</strong></p>
+            <p>Years / Graduation Program</p>
+            <p>2022 / Certificate in front-end web development</p>
+        </div>
 
-        <tbody>
-            <tr>
-                <th>Academic Result</th>
-            </tr>
-            <tr>
-                <td>Years</td>
-                <td>Graduation Program / Subject</td>
-                
-            </tr>
-            <tr>
-                <td>2022</td>
-                <td>Certificate in front-end web development</td>
-            </tr>
-            
+        <div id="working_Exp">
+            <p><strong>Working Experience</strong></p>
+            <p>Years / Working Title in Companies</p>
+            <p>2022 / Front-end web developer in Google</p>  
+        </div>
         
-            <tr>
-                <th>Working Experience</th>
-            </tr>
-            <tr>
-                <td>Years</td>
-                <td>Working Title / Companies</td>
-            </tr>
-            <tr>
-                <td>2022</td>
-                <td>Front-end web developer in Google</td>
-            </tr>
-        </tbody>
-
-   </table>
-
+    </div>
+    
    <hr>
 
     <div id="ContactMe">
-        <span>Contact Me</span><br>
-        <span>Leave us some info below and i will contact you as soon as possible.</span>
+        <h3>Contact Me</h3>
+        <p>Leave us some contact below and i will contact you as soon as possible.</p>
         <form action="">
             <label for="Name">Name:</label>
-            <input type="text" name="Name"><br>
+            <input type="text" name="Name" placeholder="Alex Chan"><br>
 
             <label for="Email">Email:</label>
-            <input type="mail" name="Email"><br>
+            <input type="mail" name="Email" placeholder="123@example.com"><br>
 
-            <label for="Question">Question:</label>
-            <input type="textarea" name="Question" width="200" height="100"><br>
+            <label for="Question">Looking for:</label>
+            <input type="textarea" name="Question" width="300px" height="150px" placeholder="Something I want to say..."><br>
 
-            <button type="submit" name="submit">Submit</button>
+            <button type="submit" name="submit" value="submit">Submit</button>
         </form>
     </div>
+
+    <hr>
+
+    <footer>
+        <p>Copyright &copy; 2022 Evan Cheung<br>
+        All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
