@@ -16,6 +16,33 @@ body {
     border-radius: 50%;
 }
 
+#profile_pic1 {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    right: -50px;
+    border-radius: 10%;
+}
+
+#profile_pic2 {
+    width: 12%;
+    height: 20%;
+    position: absolute;
+    right: 50px;
+    bottom: -550px;
+    border-radius: 10%;
+}
+
+#profile_pic3 {
+    width: 12%;
+    height: 20%;
+    position: fixed;
+    right: 180px;
+    bottom: 10px;
+    border-radius: 10%;
+}
+
+
 #ContactMe > h3:hover {
     color: white;
 }
